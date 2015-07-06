@@ -12,16 +12,15 @@ docker options `--privileged --net=host`.
 
 ## Health & Statistics
 #### Repository Health
-[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns) out of [![](https://img.shields.io/github/issues-raw/badges/shields.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
+[![GitHub issues](https://img.shields.io/github/issues/chamunks/debian-cjdns.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns) out of [![GitHub total issues](https://img.shields.io/github/issues-raw/chamunks/debian-cjdns.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
 
 #### Container Build Health
-[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?style=flat-square)](https://registry.hub.docker.com/u/chamunks/debian-cjdns/)
-[![Docker Stars](https://img.shields.io/docker/stars/_/ubuntu.svg?style=flat-square)](https://registry.hub.docker.com/u/chamunks/debian-cjdns/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/chamunks/debian-cjdns.svg?style=flat-square)](https://registry.hub.docker.com/u/chamunks/debian-cjdns/)
+[![Docker Stars](https://img.shields.io/docker/stars/chamunks/debian-cjdns.svg?style=flat-square)](https://registry.hub.docker.com/u/chamunks/debian-cjdns/)
 [![Docker Build Status](http://hubstatus.container42.com/chamunks/debian-cjdns)](https://registry.hub.docker.com/u/chamunks/debian-cjdns)
 
-#### Repository Statistics
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
+#### Repository Statistics/Info
+[![GitHub license](https://img.shields.io/github/license/chamunks/debian-cjdns.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
 
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
-
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
+[![GitHub forks](https://img.shields.io/github/forks/chamunks/debian-cjdns.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
+[![GitHub stars](https://img.shields.io/github/stars/chamunks/debian-cjdns.svg?style=flat-square)](https://github.com/chamunks/debian-cjdns)
