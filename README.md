@@ -1,14 +1,32 @@
 ## Debian Cjdns Container
+
+## Installation and Operation
+Generate yourself some configs
+
+    docker run -ti --volume --name debian-cjdns $(pwd)/cjdns:/etc/cjdns chamunks/debian-cjdns
+This will create cjdns config files in a directory named cjdns nested inside of your current working directory.
+
+You can then modify these config files to your liking. This includes modifying the port you wish to bind cjdns to inside of your container.
+
+Once you've done this you'll want to remove the old container and start a new one with docker run again.
+
+    docker run -d -P hostPort:containerPort --name debian-cjdns chamunks/debian-cjdns
+
+## The Old Method
 Installation is simple. On first run, cjdns will generate your IP
 address. The cjdns configuration lies in `/etc/cjdns` (which is a
 docker volume).
 
 To be useful you'll have to run this in privileged mode, with the
-same network stack as the host. This can be acomplished using the
+same network stack as the host. This can be accomplished using the
 docker options `--privileged --net=host`.
 
     docker pull mildred/cjdns
     docker run --privileged --net=host mildred/cjdns --volume /etc/cjdns:/etc/cjdns
+
+## Links
+[Docker Hub Image](https://registry.hub.docker.com/u/chamunks/debian-cjdns/)
+[GitHub Repository](https://github.com/chamunks/debian-cjdns)
 
 ## Health & Statistics
 #### Repository Health
