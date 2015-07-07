@@ -1,4 +1,7 @@
-## Debian Cjdns Container
+# Cjdns docker container with Debian base.
+`Complexity is the enemy of security.`  This containers aim will be to attempt to reduce/eliminate any impact that this appliance will have on its host, while also reducing the initial learning curve required to get started.  You also have the added benefit of having `a no cost learning experience` meaning this will not break your host machine in the process of you learning how to use it.
+
+This container will also not only help you learn how to get going, it will also aim to be capable of being run in container services such as Amazon's EC2 Container service.  Its not intended necessarily to be run at home but to actually be run as a point of presence in a public datacenter which can give you a dedicated external access point to Hyperboria or any other meshnets.
 
 ## Installation and Operation
 Generate yourself some configs
