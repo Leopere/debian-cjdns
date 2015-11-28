@@ -7,13 +7,16 @@ This container will also not only help you learn how to get going, it will also 
 Generate yourself some configs
 
     docker run -ti --volume $(pwd)/cjdns:/etc/cjdns --name debian-cjdns chamunks/debian-cjdns
+    echo Your new config file for cjdns is here $(pwd)/cjdns
+
 This will create cjdns config files in a directory named cjdns nested inside of your current working directory.
 
 You can then modify these config files to your liking. This includes modifying the port you wish to bind cjdns to inside of your container.
 
 Once you've done this you'll want to remove the old container and start a new one with docker run again.
 
-    docker run -d -P hostPort:containerPort --name debian-cjdns chamunks/debian-cjdns
+    docker rm -f debian-cjdns
+    docker run -d -p hostPort:containerPort -p 11234:11234 --volume $(pwd)/cjdns:/etc/cjdns --name debian-cjdns chamunks/debian-cjdns
 
 ## The Old Method
 Installation is simple. On first run, cjdns will generate your IP
